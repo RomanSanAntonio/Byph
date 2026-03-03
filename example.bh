@@ -1,0 +1,39 @@
+mom = 64
+pth = 'bin/memory.txt'
+pers = 0
+dbg = 0
+
+mov r0 5
+mov r1 3
+
+add r0 r1
+sub r0 1
+mul r0 2
+div r0 3
+
+push r0
+pop r2
+
+iseq r2 r0
+jneq skip
+
+mov r0 72
+int 2
+mov r0 105
+int 2
+
+skip:
+
+call func
+jum done
+
+func:
+mov r0 33
+int 2
+ret
+
+done:
+mov r0 10
+int 2
+
+end
