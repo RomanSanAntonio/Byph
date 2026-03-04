@@ -1,14 +1,14 @@
-# B- (.bh) Programming Language
+# Byph (B-) (.bh) Programming Language
 
-Welcome to **B-**, a minimal virtual CPU language designed to feel like real assembly — but simple enough for beginners to understand.
+Welcome to **Byph**, a minimal virtual CPU language designed to feel like real assembly — but simple enough for beginners to understand.
 
 This tutorial assumes **no prior knowledge of assembly**.
 
 ---
 
-# 1. What Is B-?
+# 1. What Is Byph?
 
-B- is a low-level programming language that runs on a virtual CPU written in Python.
+Byph is a low-level programming language that runs on a virtual CPU written in Python.
 
 That means:
 
@@ -23,7 +23,7 @@ It is designed to teach how computers actually work internally.
 
 # 2. File Extension
 
-All B- programs must use:
+All Byph programs must use:
 
 ```
 .bh
@@ -39,7 +39,7 @@ program.bh
 
 # 3. Program Structure
 
-Every B- program **must start with a header**:
+Every Byph program **must start with a header**:
 
 ```
 mom = 64
@@ -383,7 +383,7 @@ python bminus_vm.py program.bh
 
 # 16. What You’re Learning
 
-By using B-, you are learning:
+By using Byph, you are learning:
 
 * How CPUs move data
 * How stacks work
